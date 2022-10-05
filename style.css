@@ -1,0 +1,93 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fafafa;
+}
+.main {
+  padding: 85px 40px 40px 40px;
+}
+main {
+  margin-bottom: 76px;
+}
+.text-one,
+.text-span {
+  color: #4d4f62;
+  font-weight: 275;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 0;
+  letter-spacing: 0.166667px;
+  text-align: center;
+}
+.text-span {
+  font-weight: 600;
+}
+.text-two {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.104167px;
+  color: #4d4f62;
+}
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px -4px 0px 0px rgb(68 211 210 / 73%);
+  padding: 28px;
+  margin-bottom: 25px;
+}
+.team{
+    box-shadow: 0px -4px 0px 0px #EA5454;
+}
+.karma{
+    box-shadow: 0px -4px 0px 0px #FCAE4A;
+}
+.calculator{
+    box-shadow: 0px -4px 0px 0px #549EF2;
+
+}
+.card-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4d4f62;
+}
+
+.card-text-two {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.0902778px;
+  color: #4d4f62;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.card img {
+  margin-left: 70%;
+  margin-top: 15%;
+}
+
+@media screen and (min-width: 1440px) {
+  .text-one,
+  .text-span {
+    font-size: 36px;
+    line-height: 54px;
+  }
+  .main {
+    padding: 80px 165px 80px 165px;
+  }
+  .card-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 0fr;
+    grid-column-gap: 30px;
+  }
+  .card{
+    height: 35%;
+    margin: auto;
+  }
+  .karma{
+    margin-top: 30px;
+  }
+}
